@@ -34,3 +34,20 @@ body {
 opac {
   opacity: 1 !important;
 }
+
+#canvas1 {
+  position: absolute;
+  background: black;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.poiret {
+  font-family: PoiretOne;
+}
+
+.blackOps {
+  font-family: BlackOps;
+}
