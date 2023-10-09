@@ -28,7 +28,11 @@ const config: Config = {
             transform: "rotate(-1.5deg)",
           },
         }
-      }
+      },
+      screens: {
+        'mobile': {'max': '639px'},
+        'desktop': {'min': '640px'},
+      },
     },
   },
   plugins: [],
